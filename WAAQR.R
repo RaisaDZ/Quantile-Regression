@@ -72,5 +72,5 @@ WAAQR = function(outcomes, X, q, M, M0, a, sigma)  {
     }
     gamma[t, ] <- ksi_tot / (M-M0)
   }
-  return(return(list(gamma = gamma, theta = theta, lik = lik[, 2:M])))
+  return(list(gamma = gamma, theta = theta, lik = lik[, 2:M]))
 }
