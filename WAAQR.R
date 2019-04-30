@@ -1,6 +1,7 @@
 WAAQR = function(outcomes, X, q, M, M0, a, sigma)  {
   #Inputs: outcomes - target vector,
   #        X - matrix of features where rows are observations and columns are features
+  #        q - quantile
   #        M - maximum number of iteration
   #        M0 - the length of "burn-in" period
   #        a - regualrization parameter
